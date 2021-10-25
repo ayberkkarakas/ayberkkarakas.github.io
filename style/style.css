@@ -1,0 +1,263 @@
+/* GENERAL */
+
+@font-face {
+    font-family: "pixel";
+    src: url("./Fipps-Regular.otf");
+}
+
+.pixel-font-h1{
+    font-family: pixel;
+    font-size: 36px;
+}
+
+.pixel-font-h3{
+    font-family: pixel;
+    font-size: 24px;
+}
+
+.pixel-font-h5{
+    font-family: pixel;
+    font-size: 16px;
+}
+
+.bg-light-blue {
+  background-color: #4B5BAB;
+}
+
+.bg-light-green {
+  background-color: #92E8C0;
+}
+
+.bg-blue-fade {
+  background: rgb(197,223,251);
+  background: linear-gradient(0deg, rgba(197,223,251,1) 0%, rgba(26,129,239,1) 100%);
+}
+
+.light-blue {
+  color:  #C5DFFB;
+}
+
+.dark-blue {
+  color:  #1A81EF;
+}
+
+.social-hover:hover {
+  transform: scale(1.1);
+}
+
+
+/* HOME */
+
+
+.nav-link {
+  font-size: 16px;
+  margin: 3px;
+  border-bottom: 1px #4B5BAB solid;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.navbar-toggler {
+  border: none !important;
+  outline: none !important;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+.nav-link:hover {
+  border-bottom: 1px solid #92E8C0;
+}
+
+.info {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* ABOUT */
+
+.main-about {
+	box-shadow: 0 0 10px 10px rgba(0,0,0,.05);
+}
+
+.about-img {
+	border-radius: 0.5rem;
+	box-shadow: 0 0 5px 1px rgba(0,0,0.3);
+}
+
+.aboutme b{
+  text-decoration: none;
+}
+
+.text-about {
+	text-align: justify;
+}
+
+/* BLOG */
+
+.main-row {
+	margin: 8;
+	background-color: white;
+	box-shadow: 0 0 10px 10px rgba(0,0,0,.05);
+	border-radius: 0.5rem;
+}
+
+.blog-img > img{
+	width: 100%;
+	margin-top: 15px;
+	object-fit: cover;
+	border-radius: 0.5rem;
+	box-shadow: 0 0 5px 1px rgba(0,0,0.3);
+}
+
+.blog-title {
+	margin-top: 10px;
+}
+.blog-title > h2 {
+	line-height: 2;
+}
+
+.blog-date-span {
+  color: #570EA4;
+}
+
+.slide-in-bottom {
+	-webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-bottom 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-bottom {
+  0% {
+    -webkit-transform: translateY(50px);
+            transform: translateY(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+	-webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+	        animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-75px);
+            transform: translateX(-75px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+
+.slide-in-top {
+  -webkit-animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+          animation: slide-in-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+
+@-webkit-keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-top {
+  0% {
+    -webkit-transform: translateY(-100px);
+            transform: translateY(-100px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+/* ART */
+
+.breadcrumb {
+  text-decoration: none;
+}
+
+.art_language {
+  font-size: 16px;
+  text-decoration: none;
+}
+
+#portfolio a {
+  text-decoration: none;
+}
+
+#portfolio p {
+  color: black;
+}
+
+
+#shop a {
+  text-decoration: none;
+}
+
+#shop p {
+  color: black;
+}
+
+
+.img-zoom {
+ overflow: hidden;
+}
+
+.img-zoom img {
+ transition: transform .5s ease;
+}
+
+.img-zoom:hover img {
+  transform: scale(1.1);
+}
+
